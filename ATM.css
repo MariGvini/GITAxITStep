@@ -1,0 +1,37 @@
+a{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    width: 80px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+p{
+    width: 380px;
+    height: 40px;
+    background-color: rgb(112, 112, 112);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.ATM-btns, .result, .action{
+    display: flex;
+    justify-content: center;
+}
+
+.action p{
+    display: flex;
+    justify-content: center;
+    width: 380px;
+    height: 20px;
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+    color: rgb(118, 118, 118);
+    font-size: 15px;
+    margin: 0;
+}
