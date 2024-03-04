@@ -272,11 +272,11 @@ textarea{
 
 /* FOR SUBMITING FORM */
 
-/* .SUBMIT-BUTTON:hover{
+.SUBMIT-BUTTON:hover{
     cursor:pointer;
 }
 
 form{
     position: relative;
     top: -40px;
-} */
+}

@@ -13,7 +13,7 @@
 }
 
 /* ------------------------------------ FOOTER ------------------------------------ */
-@media screen and (max-width: 900px) {    
+@media screen and (max-width: 600px) {    
     .footer-div{
         display: flex;
         flex-direction: column;
@@ -55,34 +55,6 @@
     }
 }
 
-
-
-
-/* ------------------------------------ CONTACT US ------------------------------------ */
-
-@media screen and (max-width: 900px) {
-    .contact-div {
-        width: 100%;
-        gap: 20px;
-        padding: 20px;
-    }
-
-    .contact-div > img{
-        width: 50%;
-    }
-
-    .right-side {
-        width: 50%;
-    } 
-
-    input, textarea {
-        width: 100%;
-    }    
-}
-
-
-
-
 /* ------------------------------------ ABOUT US ------------------------------------ */
 
 @media screen and (max-width: 900px) {
@@ -108,3 +80,19 @@
         height: auto;
     }
 }
+
+/* ------------------------------------ CONTACT US ------------------------------------ */
+
+@media screen and (max-width: 900px) {
+    /* .contact-div {
+        padding: 50px;
+    } */
+
+    form {
+        gap: 10px;
+    }
+}
+
+
+
+
