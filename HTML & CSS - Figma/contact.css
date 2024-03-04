@@ -128,8 +128,8 @@ a:link {
 
   /* FOOTER */
 footer{
-    position: relative;
-    top: 200px;
+    position: relative;   /* only for Contact Us page */
+    top: 200px;   /* only for Contact Us page */
     background-color: #F1E6E566;
 }
 
@@ -206,18 +206,26 @@ footer{
 .contact-div{
     display: flex;
     justify-content: space-between;
-    width: 834px;
+    width: 65%;
     height: 489px;
     margin: 0px auto;
     position: relative;
     top: 100px;
 }
 
+.contact-div > img {
+    max-width: 50%;
+    object-fit: contain;
+    padding: 0 10px 0 0;
+}
+
 .right-side{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 80%;
 }
+
 form{
     display: flex;
     flex-direction: column;
@@ -272,11 +280,11 @@ textarea{
 
 /* FOR SUBMITING FORM */
 
-.SUBMIT-BUTTON:hover{
+/* .SUBMIT-BUTTON:hover{
     cursor:pointer;
 }
 
 form{
     position: relative;
     top: -40px;
-}
+} */
