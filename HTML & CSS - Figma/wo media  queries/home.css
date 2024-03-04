@@ -147,7 +147,7 @@ footer{
 }
 
 .footer-2{
-    
+    width: 45%;
     height: 168px;
     display: flex;
     flex-direction: column;
@@ -201,53 +201,220 @@ footer{
 }
 
 
-/* MAIN CONTENT */
+/* MAIN ALL */
 
-.about-photo{
-    display: flex;
-    justify-content: center;
-
-    padding: 100px 0 0 0;
-    width: 100%;
-}
-    /* position: relative;
-    top: 100px; */
-
-.about-div{
-  width: 100%;
-}
-
-
-
-
-.about-text{
-    background-color: rgb(151, 155, 208, 0.2);
-    height: 318px;
-    /* 318=288 საწყისი + 30 gap */
-
-    margin: 74px 0px;
-
-    /* position: relative; */
-    /* top: 100px; */
-}
-
-article{
-    width: 816px;
-    height: 208px;
-    padding: 40px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-article > p{
-    align-items: center;
-    color: #5C5C5C;
+h3{
     font-family: Roboto;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 23px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #5C5C5C;   
+}
+
+button{
+    background: #E6897C;
+    width: 100%;
+    height: 53px;
+    padding: 16px
+     /* 60px 16px 60px არასწორი მონაცემებია FIGMA-ში*/
+     ;
+    border-width: 0;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
     letter-spacing: 0.04em;
     text-align: center;
+    color: white;
+
+    transition: 0.5s;
+}
+
+button:hover{
+    background: #ff7563;
+    cursor:pointer;
+}
+
+
+/* MAIN 1 */
+
+.main1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top:76px;
+}
+
+.main1-left{
+    width: 384px;
+    /* height: 407px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 121px;
+}
+
+.main1-left > a{
+    width: 205px;
+    margin-top: 60px;
+}
+
+.shop-div > a{
+    width: 205px;
+    margin-top: 60px;
+}
+
+.main1 > img{
+    max-width: 50%;
+}
+
+/* MAIN 2 */
+
+.main2{
+    background: #FFFCFC;
+    height: 1025px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 121px; 
+}
+
+.products-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    gap: 20px;
+}
+
+.product1 > img{
+    max-width: 100%;
+}
+
+.product2 > img{
+    max-width: 100%;
+}
+
+.product3 > img{
+    max-width: 100%;
+}
+
+.product1 > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 388px; */
+    height: 50px;
+    background-color:#B7BAD9;
+
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: white;
+
+    position: relative;
+    top:-4px;
+
+    transition: 0.5s;
+}
+
+.product2 > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 388px; */
+    height: 50px;
+    background-color:#B7BAD9;
+
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: white;
+
+    position: relative;
+    top:-4px;
+
+    transition: 0.5s;
+}
+
+.product3 > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 388px; */
+    height: 50px;
+    background-color:#B7BAD9;
+
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: white;
+
+    position: relative;
+    top:-4px;
+
+    transition: 0.5s;
+}
+
+.main2 > h3{
+    text-align: center;
+}
+
+.main2 > a{
+    width: 387px;
+    max-width: 31.9%;
+    margin: 0px auto;
+}
+
+/* MAIN 3 */
+
+.main3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 121px;
+}
+
+.shop-div{
+    width: 384px;
+    height: 449px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-right: 100px; */ /* ზედმეტია */
+    margin-left: 30px;
+}
+
+.main3 > img{
+    max-width: 50%;
+}
+
+
+
+
+
+/* . */
+.product1 > a:hover{
+background-color:#a4aae7;
+}
+
+.product2 > a:hover{
+    background-color:#a4aae7;
+}
+
+.product3 > a:hover{
+    background-color:#a4aae7;
 }

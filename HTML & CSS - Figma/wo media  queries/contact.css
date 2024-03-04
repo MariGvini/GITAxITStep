@@ -126,10 +126,10 @@ a:link {
 
 
 
-/* FOOTER */
+  /* FOOTER */
 footer{
     position: relative;
-    top: 100px;
+    top: 200px;
     background-color: #F1E6E566;
 }
 
@@ -147,7 +147,7 @@ footer{
 }
 
 .footer-2{
-    
+    width: 45%;
     height: 168px;
     display: flex;
     flex-direction: column;
@@ -203,51 +203,80 @@ footer{
 
 /* MAIN CONTENT */
 
-.about-photo{
+.contact-div{
     display: flex;
-    justify-content: center;
-
-    padding: 100px 0 0 0;
-    width: 100%;
-}
-    /* position: relative;
-    top: 100px; */
-
-.about-div{
-  width: 100%;
+    justify-content: space-between;
+    width: 834px;
+    height: 489px;
+    margin: 0px auto;
+    position: relative;
+    top: 100px;
 }
 
-
-
-
-.about-text{
-    background-color: rgb(151, 155, 208, 0.2);
-    height: 318px;
-    /* 318=288 საწყისი + 30 gap */
-
-    margin: 74px 0px;
-
-    /* position: relative; */
-    /* top: 100px; */
-}
-
-article{
-    width: 816px;
-    height: 208px;
-    padding: 40px;
-    margin: auto;
+.right-side{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    justify-content: space-between;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
 }
 
-article > p{
-    align-items: center;
-    color: #5C5C5C;
+h2{
     font-family: Roboto;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 23px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
     letter-spacing: 0.04em;
-    text-align: center;
+    text-align: left;
+    color: #5C5C5C;
 }
+
+input{
+    width: 365px;
+    height: 55px;
+    padding: 10px;
+}
+
+textarea{
+    width: 365px;
+    height: 201px;
+    padding: 10px;
+    resize: none;
+}
+
+::placeholder {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #5C5C5C;
+}
+
+/* . */
+
+.SUBMIT-BUTTON{
+    position: relative;
+    top:500px;
+    right: -305px;
+    width: 60px;
+    background-color: white;
+    border-width: 0;
+}
+
+
+/* FOR SUBMITING FORM */
+
+/* .SUBMIT-BUTTON:hover{
+    cursor:pointer;
+}
+
+form{
+    position: relative;
+    top: -40px;
+} */

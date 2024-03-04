@@ -147,7 +147,7 @@ footer{
 }
 
 .footer-2{
-    
+    width: 45%;
     height: 168px;
     display: flex;
     flex-direction: column;
@@ -206,18 +206,9 @@ footer{
 .about-photo{
     display: flex;
     justify-content: center;
-
-    padding: 100px 0 0 0;
-    width: 100%;
+    position: relative;
+    top: 100px;
 }
-    /* position: relative;
-    top: 100px; */
-
-.about-div{
-  width: 100%;
-}
-
-
 
 
 .about-text{
@@ -227,8 +218,8 @@ footer{
 
     margin: 74px 0px;
 
-    /* position: relative; */
-    /* top: 100px; */
+    position: relative;
+    top: 100px;
 }
 
 article{
