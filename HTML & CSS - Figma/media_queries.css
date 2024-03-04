@@ -95,6 +95,7 @@
 
     .contact-div > img {
         margin: auto;
+        padding: 0;
     }
 
     .right-side {
@@ -120,5 +121,17 @@
         height: 201px;
         padding: 10px;
         resize: none;
+    }
+
+    footer{
+        position: relative;   /* only for Contact Us page */
+        top: 500px;   /* only for Contact Us page */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer{
+        position: relative;   /* only for Contact Us page */
+        top: 230px;   /* only for Contact Us page */
     }
 }

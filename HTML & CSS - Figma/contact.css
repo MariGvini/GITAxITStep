@@ -206,7 +206,8 @@ footer{
 .contact-div{
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    width: 834px;
+    max-width: 65%;
     height: 489px;
     margin: 0px auto;
     position: relative;
