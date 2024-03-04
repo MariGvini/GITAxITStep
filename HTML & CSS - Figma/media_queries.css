@@ -84,20 +84,26 @@
 /* ------------------------------------ CONTACT US ------------------------------------ */
 
 @media screen and (max-width: 900px) {
-    /* .contact-div {
-        padding: 50px;
-    } */
-
     .contact-div {
         gap: 10px;
         margin: 0 auto;
         width: 80%;
+
+        display: flex;
+        flex-direction: column;
     }
 
-    /* .contact-div > img {
-        max-width: 50%;
-        max-height: 50%;
-    } */
+    .contact-div > img {
+        margin: auto;
+    }
+
+    .right-side {
+        max-width: 100%;
+    }
+
+    h2{
+        text-align: center;
+    }
 
     form {
         gap: 10px;
