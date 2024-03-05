@@ -383,7 +383,7 @@ button:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 121px;
+    padding: 0px 121px 40px 121px;
 }
 
 .shop-div{
